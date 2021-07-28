@@ -65,7 +65,7 @@
                 answer: "COMMANDS",
                 position: 8,
                 orientation: "down",
-                startx: 8,
+                startx: 9,
                 starty: 1
             },
             {
