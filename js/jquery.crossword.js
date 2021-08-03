@@ -332,7 +332,8 @@
                     }
 
                     if (complete_flag == true) {
-                        alert("Crossword Edition 2\n-- Game Complete --")
+                        //alert("Crossword Edition 2\n-- Game Complete --")
+                        swal("Crossword Puzzle", "Game Complete", "success");
                     }
 
 
