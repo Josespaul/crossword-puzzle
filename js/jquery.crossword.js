@@ -273,7 +273,11 @@
                     if (!$('.entry-' + i + ':eq(0) span').length) {
                         //alert($groupedLights.attr('id'))
                         $groupedLights.eq(0)
-                            .append('<span>' + ($groupedLights.attr('id')).replace('posx-', '') + '</span>');
+                            //.append('<span>' + ($groupedLights.attr('id')).replace('posx-', '') + '</span>');
+                            .append('<span>' + i + '</span>');
+                    } else {
+                        $groupedLights.eq(0)
+                            .append('<span>' + '&nbsp;/' + i + '</span>');
                     }
                 }
 
