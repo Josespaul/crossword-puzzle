@@ -30,7 +30,7 @@
             },
             {
                 clue: "Which is the place where the city is not hidden?",
-                answer: "hill",
+                answer: "hil",
                 position: 4,
                 orientation: "across",
                 startx: 3,
